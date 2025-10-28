@@ -1009,7 +1009,7 @@ svg.icon-why {
     position: relative;
     overflow: hidden;
 }
-@media (min-width: 853px) {
+@media (max-width: 853px) {
     .cta-section{
         background-image: url("img/sea-7086932_1280.jpg");
     }
@@ -1370,4 +1370,5 @@ svg.icon-why {
     .trust-label {
         font-size: 1rem;
     }
+
 }
