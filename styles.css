@@ -1150,8 +1150,8 @@ svg.icon-why {
 .form-submit {
     width: 100%;
     background: white;
-    border: 4px solid var(--primary);
-    color: var(--primary);
+    border: 4px solid var(--primary-light);
+    color: var(--primary-light);
     padding: 1.25rem 2rem;
     border-radius: 8px;
     font-size: 1.2rem;
@@ -1161,8 +1161,8 @@ svg.icon-why {
 }
 
 .form-submit:hover {
-    background: var(--primary);
-    border: 4px solid var(--primary-dark);
+    background: var(--primary-light);
+    border: 4px solid var(--primary-light);
     color: white;
 }
 
@@ -1349,7 +1349,10 @@ svg.icon-why {
     .hero {
         padding: 5rem 0 3rem;
     }
-    
+    .hero-content {
+        border: none;
+        padding: 0
+    }
     .feature-card {
         padding: 2rem 1.5rem;
     }
@@ -1370,5 +1373,8 @@ svg.icon-why {
 
     .trust-label {
         font-size: 1rem;
+    }
+    .container{
+        padding: 0.5rem;
     }
 }
